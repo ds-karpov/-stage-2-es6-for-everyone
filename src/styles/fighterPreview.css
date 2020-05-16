@@ -1,13 +1,25 @@
 .fighter-preview___root {
   display: flex;
   flex-direction: column;
-  flex-basis: 250px;
+  max-width: 300px;
+  height: 350px;
 }
 
 .fighter-preview___right {
-  align-items: flex-end;
+  align-items: center;
 }
 
 .fighter-preview___left {
-  align-items: flex-start;
+  align-items: center;
 }
+.fighter-preview___props-box {
+  max-width: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(9, 3, 97, 0.7);
+}
+
+
+

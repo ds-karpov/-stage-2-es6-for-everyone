@@ -4,6 +4,9 @@
   justify-content: center;
   align-items: center;
   margin: 40px;
+  background-color: rgba(0, 0,0, 0.5);
+  border-radius: 5px;
+  border: solid 2px black
 }
 
 .preview-container___versus-block {
